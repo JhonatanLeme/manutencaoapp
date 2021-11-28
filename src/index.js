@@ -10,7 +10,13 @@ import reportWebVitals from './reportWebVitals';
 
 import Amplify from 'aws-amplify';
 import config from './aws-exports';
+import { I18n } from 'aws-amplify';
+import AmplifyI18n from 'amplify-i18n';
 Amplify.configure(config);
+const locales = ["en", "fr", "pt-BR"]
+AmplifyI18n.configure(locales)
+I18n.setLanguage("pt-BR")
+
 
 ReactDOM.render(
   <React.StrictMode>
