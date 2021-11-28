@@ -10,6 +10,11 @@
       "StackName": "amplify-manutencaoapp-dev-105434",
       "StackId": "arn:aws:cloudformation:sa-east-1:328191713088:stack/amplify-manutencaoapp-dev-105434/ba272270-5052-11ec-9a4e-0acf818e287a",
       "AmplifyAppId": "d15o5sqt4et7yi"
+    },
+    "categories": {
+      "auth": {
+        "manutencaoapp1bd079ee": {}
+      }
     }
   }
 }
